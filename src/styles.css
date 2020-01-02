@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #00f2fe;
+}
+
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
